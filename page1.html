@@ -3,47 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>awethebird - Page 2</title>
-    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display&display=swap" rel="stylesheet">
+    <title>Web - AWEsome5199</title>
     <style>
         body {
-            background-image: url('https://github.com/Kirb101/Website/blob/main/WallpaperAurora.jpg?raw=true');
-            background-size: cover;
-            background-position: center center;
-            font-family: 'SF Pro Display', sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #000;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-        }
-        .content {
-            text-align: center;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
             color: white;
-            margin-top: 50px;
         }
-        .custom-button {
+        .container {
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        input[type="submit"] {
+            background-color: #fff;
+            color: #000;
             border: none;
-            background: none;
+            padding: 10px 20px;
             cursor: pointer;
-            transition: filter 0.3s;
-        }
-        .custom-button:hover {
-            filter: brightness(115%);
-        }
-        .custom-button img {
-            width: 100px;
-            height: auto;
-            display: block;
-            margin: auto;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <!-- Content for the second page goes here -->
+    <div class="container">
+        <h1>AWETheBrowser Alpha Signup</h1>
+        <p>(Only for Windows 11, support coming to macOS 14 Sonoma soon)</p>
+        <form method="post" action="submit.php"> <!-- Added form attributes -->
+            <input type="text" name="email" placeholder="E-Mail">
+            <input type="submit" value="Sign Up">
+        </form>
     </div>
-    <!-- Include your JavaScript code here if needed -->
 </body>
 </html>
+
